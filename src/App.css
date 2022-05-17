@@ -1,0 +1,68 @@
+.boardCenter{
+  display: flex;
+  align-items: center;
+  margin-top: -100px;
+  justify-content: center;
+}
+
+.tittle{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 55px;  
+}
+
+.puntaje{
+  display: row;
+  justify-content: center;
+  margin-left: 25px;
+}
+
+.winCont{
+  
+  font-size: 25px;
+}
+
+.turn{
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.message{
+  display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 30px;
+   font-size: 35px;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 35px;
+  margin-left: 20px;
+  font-size: 25px;
+  background-color: green;
+}
+
+
+.board{
+  display: grid;
+  grid-template-columns: repeat(3,88px);
+  background-color: gray;
+  box-shadow: 10px 15px 30px;
+}
+
+.cell{
+  width: 88px;
+  height: 88px;
+  border: 1px solid gainsboro;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+}
